@@ -27,6 +27,7 @@ The goals / steps of this project are the following:
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image9]: ./examples/Image_index_6306.png "Traffic Sign 6306"
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -58,7 +59,7 @@ The code for this step is contained in the third code cell of the IPython notebo
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
-![alt text][image1]
+![alt text][image9]
 
 ###Design and Test a Model Architecture
 
@@ -66,11 +67,12 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 The code for this step is contained in the fourth code cell of the IPython notebook.
 
-As a first step, I decided to convert the images to grayscale because ...
+When visualizing the image above, note that the top image is the color image with the rgb channels. Note that there is not a lot we can observe from this image.
 
-Here is an example of a traffic sign image before and after grayscaling.
+The bottom image shows the gray scale image. The gray scale image shows the texture of the data more clearly than the rgb image. Thus, gray scaling was performed on the dataset.
 
-![alt text][image2]
+Normalization: Normalization was not performed on this dataset, since many images were taken in the dark and therefore the gray scale value were much less than 128. The dataset therefore did not have a mean around 0.
+
 
 As a last step, I normalized the image data because ...
 
