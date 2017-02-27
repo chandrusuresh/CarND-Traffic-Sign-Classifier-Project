@@ -1,2 +1,2 @@
-model_checkpoint_path: "Traffic_Sign_Classifier_CS"
-all_model_checkpoint_paths: "Traffic_Sign_Classifier_CS"
+model_checkpoint_path: "case1.ckpt"
+all_model_checkpoint_paths: "case1.ckpt"
